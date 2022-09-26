@@ -100,5 +100,12 @@
     line-height: 1.3rem;
 }
 
+@media screen and (orientation:portrait) {
+    .main-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
 
 
