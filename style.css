@@ -1,0 +1,104 @@
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.user-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+.user-title{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.title{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.experience{
+ line-height: 1.5rem;
+}
+.logo{
+    border: 1px solid #d0d0f7;
+    background-color: #d0d0f7;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 700;
+    -webkit-print-color-adjust: exact;
+    
+}
+
+.connect{
+    font-size: medium;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.connect:nth-child(2){
+    margin-top: 20px;
+}
+
+.tagline{
+    border: 1px solid transparent;
+    border-left: 8px solid rgb(93, 93, 247);
+    background-color: #f0f0f9;
+    margin: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    -webkit-print-color-adjust: exact;
+}
+
+.slider{
+    border: 1px solid grey;
+    height: 8px;
+    width: 8px;
+    display: block;
+    -webkit-print-color-adjust: exact;
+    
+}
+
+.checked{
+    background-color: #d0d0f7;
+    -webkit-print-color-adjust: exact;
+}
+
+.skills{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: 5px;
+}
+
+.skill-set{
+    flex-basis: 200px;
+}
+
+.subtitle{
+    font-size: large;
+    font-weight: 500;
+    background-color: #ebebf8;
+    margin: 10px 0px;
+    -webkit-print-color-adjust: exact;
+}
+
+.content{
+    font-size: medium;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+
+
+
