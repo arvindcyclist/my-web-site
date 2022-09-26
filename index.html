@@ -1,66 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Arvind Cyclist</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: calc(10px + 0.33vw);
-      -webkit-font-smoothing: antialiased;
-      padding: 5vh 10vw;
-      color: #121314;
-    }
-    h1 {
-      font-size: 4.5em;
-      font-weight: 500;
-      margin-bottom: 0;
-    }
-    p {
-      font-size: 1.6em;
-      font-weight: 300;
-      line-height: 1.4;
-      max-width: 26em;
-    }
-    a {
-      text-decoration: none;
-      color: #121314;
-      position: relative;
-    }
-    a:after {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: 60%;
-      left: -0.1em;
-      right: -0.1em;
-      bottom: 0;
-      transition: top 200ms cubic-bezier(0, .8, .13, 1);
-      background-color: rgba(79,192,141,0.5);
-    }
-    a:hover:after {
-      top: 0%;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvind Resume - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Hello.</h1>
-  <p style="font-weight:500; font-size:2.2em">
-    My name is Arvind Cyclist.
-  </p>
-  <p>
-    I am an independent software developer and a road bike racer
-  </p>
-  <p>
-   If you happen to be from india road bike racer means not John Baba of Dhoom, road bike racer means a bicycle racer
-  </p>
- 
-  <p>
-    Outside of programming and road bike racing I enjoy playing chess with my wife and my elder brother.
-    To replace all files recursively in windows powershell Get-ChildItem -R *.css | Rename-Item -NewName { $_.Name.Replace('.css','.scss') }
-  </p>
+
+    <div class="main-container">
+        <div class="personal">
+            <div class="user-container">
+                <div class="logo">AY</div>
+                <div class="user-title">Arvind Yadav</div>
+            </div>
+            <div class="connect">Flat no 504, Building no 1, Agarwal Nagri new link road near firebrigade vasai east
+                Maharashtra 401208</div>
+            <div class="connect">yadav.arvind870@gmail.com</div>
+            <div class="connect">+91 9538877095</div>
+
+            <div class="tagline">
+                5+ years extensive experience in web development and business aspect of technology
+                Strong in software development application worked in Agile scrum methodology
+            </div>
+            <h1 class="key-skills">
+                Key Skills
+            </h1>
+            <div class="skills">
+                <div class="skill-set">Angular 8/9/12</div>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider"></span>
+            </div>
+            <div class="skills">
+                <div class="skill-set">Javascript</div>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider"></span>
+            </div>
+            <div class="skills">
+                <div class="skill-set">HTML5</div>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+            </div>
+
+            <div class="skills">
+                <div class="skill-set">CSS</div>
+            <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider"></span>
+            </div>
+            <div class="skills">
+                <div class="skill-set">GIT</div>
+            <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider"></span>
+                <span class="slider"></span>
+            </div>
+            <div class="skills">
+                <div class="skill-set">Oracle</div>
+            <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider checked"></span>
+                <span class="slider"></span>
+                <span class="slider"></span>
+            </div>
+        </div>
+        <div class="experience">
+            <div class="title">Professional Experience</div>
+            <div>
+                <div class="subtitle">Software Developer - Quantiphi Inc - April 2019 - till date</div>
+                <div class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae minima quidem
+                    adipisci temporibus eum possimus architecto asperiores laudantium illum molestiae sint praesentium
+                    iste saepe, blanditiis cum exercitationem magni nulla repellendus?</div>
+            </div>
+            <div>
+                <div class="subtitle">Software Developer - Bhilwara Infotech - October 2018 - March 2019</div>
+                <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae voluptatem
+                    esse minima odit rem, sit tempora harum odio totam est laboriosam minus et eos iure ipsum dolor,
+                    debitis perferendis.</div>
+            </div>
+            <div>
+                <div class="subtitle">Software Developer - L&T technology services limited - Feb 2016 - August 2017
+                </div>
+                <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi est magni cum eos
+                    ipsa fugit aliquam, qui, quaerat odit animi corporis quidem reprehenderit eaque odio. Eaque ratione
+                    iure odio aspernatur!</div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
