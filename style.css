@@ -109,6 +109,15 @@
     gap: 7px;
 }
 
+button{
+    box-shadow: 5px 5px 10px rgb(0,0,0,.4);
+    border: none;
+    padding: 10px;
+    background-color: coral;
+    color: white;
+
+}
+
 @media screen and (orientation:portrait) {
     .main-container{
         flex-direction: column;
